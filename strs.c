@@ -102,9 +102,9 @@ int main() {
 
   //find char in string
   char t2[] = "aaaaaaaaaab";
-  char a = "a";
-  char b = "b";
-  char c = "c";
+  char a = 'a';
+  char b = 'b';
+  char c = 'c';
   printf("find a in aaaaaaaaaab:\nours:\t%p\nactual:\t%p\n",mstrchr(t2,a),strchr(t2,a));
   printf("find b:\nours:\t%p\nactual:\t%p\n",mstrchr(t2,b),strchr(t2,b));
   printf("find c:\nours:\t%p\nactual:\t%p\n",mstrchr(t2,c),strchr(t2,c));
